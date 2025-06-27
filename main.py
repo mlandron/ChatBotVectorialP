@@ -24,8 +24,7 @@ app.config['SECRET_KEY'] = 'asdf#FGSgvasgf$5$WGT'
 # More permissive CORS configuration
 CORS(app, origins=[
     "http://localhost:3000", 
-    "https://*.vercel.app", 
-    "https://chat-bot-vectorial-p.vercel.app/"
+    "https://chat-bot-vectorial-p.vercel.app"
 ], 
 allow_headers=["Content-Type", "Authorization"],
 methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
