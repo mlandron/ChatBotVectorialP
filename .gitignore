@@ -5,3 +5,4 @@ node_modules
 .bk/
 __pycache__/
 .DS_Store
+bk/
